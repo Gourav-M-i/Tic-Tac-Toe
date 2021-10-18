@@ -80,7 +80,6 @@ function iswin()
 }
 function isdraw()
 {
-    //let position = document.querySelectorAll('span')
     for (let i = 0; i < position.length; i++) {   
         if(position[i].innerText=='')
         {
@@ -91,7 +90,6 @@ function isdraw()
 }
 
 document.getElementById('reset').addEventListener('click',function(){
-    //let position = document.querySelectorAll('span')
     for (let i = 0; i < position.length; i++) {
         position[i].innerText='';
         position[i].style.backgroundColor='black';
